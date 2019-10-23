@@ -1,10 +1,10 @@
 #include <stdio.h>
-int main(void)
+int main(void)//this is because input is nothing
 {
  int a, i, j, k, count;
  scanf("%d", &a);
  k = 0;
- if (a>1)
+ if (a>1)//because we have to take only numbers greater than 1
    {count = 1;
     printf("2\n");
     for (i=2;i<=a;i++)
@@ -14,10 +14,10 @@ int main(void)
               k = i % j;
               if (k==0)
                  {
-                  break;
+                  break;//task done 
                  }
              } 
-         if (k!=0)
+         if (k!=0)//if not equal 0 then increase count increase
             {
              count++;
              printf("%d\n",i);
