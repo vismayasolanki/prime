@@ -9,7 +9,7 @@ int main(void)//this is because input is nothing
     printf("2\n");
     for (i=2;i<=a;i++)
         {
-         for (j=2;j<i;j++)
+         for (j=2;j<=sqrt(i);j++) // making it effective
              {
               k = i % j;
               if (k==0)
